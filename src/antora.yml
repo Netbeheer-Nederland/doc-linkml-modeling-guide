@@ -1,0 +1,6 @@
+name: linkml-modeling-guide
+title: LinkML Modeling Guide
+version: true
+prerelease: "-draft"
+nav:
+- modules/ROOT/nav.adoc

@@ -1,0 +1,48 @@
+= LinkML Modeling Guide
+
+In this guide we will learn how to use LinkML for modeling data or information.
+
+== When LinkML is the right choice
+Application profiles, logical data models for specific applications or processes.
+
+== When LinkML is not the right choice
+OWA ontologies with an emphasis on inference, highly expressive conceptual models, complex logical models with lots of reuse and refining.
+
+////
+== See also
+* Don't forget to check out xref:models::index.adoc[Types of Models].
+
+'''
+
+.Inline GraphViz example
+[graphviz,inline]
+....
+digraph foo {
+  node [style=rounded]
+  node1 [shape=box]
+  node2 [fillcolor=yellow, style="rounded,filled", shape=diamond]
+  node3 [shape=record, label="{ a | b | c }"]
+
+  node1 -> node2 -> node3
+}
+....
+
+.Block GraphViz example (macro)
+graphviz::partial$diagrams/nodes.gviz[]
+
+'''
+////
+
+.Block GraphViz example (include)
+[graphviz,title,png]
+....
+include::partial$diagrams/nodes.gviz[]
+....
+
+---
+
+.PlantUML
+[plantuml]
+....
+include::partial$diagrams/plantje.puml[]
+....
