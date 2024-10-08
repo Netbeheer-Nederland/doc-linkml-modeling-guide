@@ -37,7 +37,7 @@ graphviz::partial$diagrams/nodes.gviz[]
 .Block GraphViz example (include)
 [graphviz,title,png]
 ....
-include::partial$diagrams/nodes.gviz[]
+//include::partial$diagrams/nodes.gviz[]
 ....
 
 ---
@@ -45,5 +45,5 @@ include::partial$diagrams/nodes.gviz[]
 .PlantUML
 [plantuml]
 ....
-include::partial$diagrams/plantje.puml[]
+//include::partial$diagrams/plantje.puml[]
 ....
