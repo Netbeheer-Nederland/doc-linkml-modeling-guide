@@ -12,6 +12,7 @@ OWA ontologies with an emphasis on inference, highly expressive conceptual model
 == See also
 * Don't forget to check out xref:models::index.adoc[Types of Models].
 
+
 '''
 
 .Inline GraphViz example
